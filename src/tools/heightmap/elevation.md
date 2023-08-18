@@ -1,7 +1,7 @@
-# Elevation
+# Высота
 
-The simplest heightmap tool is the **Elevation** tool. It is used to simply raise or lower an area within your selection one layer at a time. For the time being the brush options only let you configure a cylindrical shape from which the Radius and the Height of the brush can be configured. These are pretty self explanatory where the height setting affects the y range in which the blocks are affected and the radius is the size of the heightmap.
+Простейшим инструментом карты высот является инструмент высота. Он используется, чтобы просто поднять или опустить область в пределах вашего выделения на один слой за раз. В настоящее время параметры кисти позволяют настроить только цилиндрическую форму, из которой можно настроить радиус и высоту кисти. Это довольно очевидно, когда настройка высоты влияет на диапазон y, в котором затрагиваются блоки, а радиус - это размер карты высот.
 
-The Sharpness setting lets you change the behaviour of the aforementioned curvature and falloff. Increasing the sharpness makes the edges sharper/more flat.
+- Параметр «Резкость» позволяет изменить поведение вышеупомянутой кривизны и спада. Увеличение резкости делает края более резкими/плоскими.
 
-Then there are the raise and lower modes. This affects whether the brush will add or remove blocks from the world.
+> Затем есть режимы повышения и понижения. Это влияет на то, будет ли кисть добавлять или удалять блоки из мира.
