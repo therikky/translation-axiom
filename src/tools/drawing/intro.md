@@ -1,3 +1,3 @@
-# Drawing Tools
+# Инструменты рисования
 
-Drawing tools are used to sculpt the world, adding or subtracting mass in a way similar to the sculpting tools found in other 3D software. Each tool uses unique placement algorithms, allowing for varied effects. Axiom provides a wide array of these tools, each one equipped with specialized configurations for precise block editing.
+Инструменты рисования используются для скульптинга мира, добавления или вычитания массы способом, подобным инструментам скульптинга, которые находятся в любой программе для 3D. Каждый инструмент использует уникальные алгоритмы размещения, позволяющие создавать различные эффекты. Axiom предоставляет широкий набор этих инструментов, каждый из которых оснащен специализированными конфигурациями для точного редактирования блоков.
