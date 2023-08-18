@@ -1,9 +1,9 @@
-# Target Info
+# Информация о цели
 
-The **Target Info** window shows information of the block targeted by your mouse in the Editor UI.
+В окне **Информация о цели** отображается информация о блоке, на который наведена ваша мышь в пользовательском интерфейсе редактора.
 
-The window contains:
-- The block you’re hovering over.
-- The position of that block in the world.
-- The biome at that position.
-- The distance from your camera to that position.
+Окно содержит:
+- Блок, над которым вы наводите курсор.
+- Положение этого блока в мире.
+- Биом в этой позиции.
+- Расстояние от вашей камеры до этой позиции.
