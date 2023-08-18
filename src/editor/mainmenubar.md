@@ -3,7 +3,7 @@
 
 ## Редактирование
     
-| Функции       | сочитания клавиш по умолчанию | Описание                                              |
+| Функции        | сочитания клавиш по умолчанию | Описание                                              |
 |----------------|------------------|----------------------------------------------------------|
 | Отмена         | Ctrl+Z           | Отменяет последнее действие                              |
 | Повтор         | Ctrl+Y           | Отменяет последнее отменяющее действие                   |
@@ -22,14 +22,14 @@
 | Развернуть | Расширяет текущий выбор на заданное количество блоков |
 | сокращение | Сокращает текущее выделение на заданное количество блоков |
 | Искажение  | Искажает текущее выделение симплексным шумом на заданный радиус и расстояние. Радиус - это масштаб шума, а расстояние - величина, на которую он искажается |
-| Smooth   | Applies a Gaussian blur on the selection to smooth out the selection. StdDev is the intensity of the smoothing operation and the threshold is the ‘cut-off’ of how much input weight is needed to affect the output |
-| Bounding Box | Creates a cuboid selection around the furthest points of the selection, encapsulating the entire selection |
+| Сглаживание | Применяет к выделению размытие по Гауссу, чтобы сгладить выделение. Стандартное отклонение — это интенсивность операции сглаживания, а порог — это «отсечка» того, сколько входного веса необходимо, чтобы повлиять на результат.. |
+| Граничная зона | Создает кубоидное выделение вокруг самых удаленных точек выделения, заключая в себе все выделение |
 
-## View
+## Просмотр
 
-The View submenu lets you configure options related to viewing and rendering certain elements in your world.
+Подменю просмотра позволяет настроить параметры, связанные с просмотром и визуализацией определенных элементов в мире.
 
-| Function       | Default Shortcut | Description |
+| Функция        | сочитания клавиш по умолчанию | Description |
 |----------------|------------------|-------------|
 | New View       | None             | Create a new [View](views.html) |
 | Show Selection | None             | Lets you toggle the rendering of your selections |
