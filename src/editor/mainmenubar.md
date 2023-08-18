@@ -11,11 +11,11 @@
 | Копирование    | Ctrl+C           | Копирует выбранный элемент в буфер обмена                |
 | Сохранить      | Ctrl+P           | Сохраняет текущий выбор в качестве чертежа для последующего использования |
 
-## Select
+## Выберите
     
-The Select submenu lets users perform a variety of functions related to selections.
+Подменю выбора позволяет пользователям выполнять различные функции, связанные с выбором.
     
-| Function | Description                  |
+| Функция  | Описание                     |
 |----------|------------------------------|
 | Clear    | Clears the current selection |
 | Mask     | Selects blocks within the current selection that match the chosen block |
