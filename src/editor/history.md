@@ -1,5 +1,5 @@
-# History
+# История
 
-The History window shows you an overview of how many and what operations you just performed. It serves as a visual aid to assist in performing undo (Ctrl+Z) and redo (Ctrl+Y) operations.
+В окне "История" отображается информация о том, сколько и каких операций вы только что выполнили. Оно служит наглядным пособием при выполнении операций отмены (Ctrl+Z) и повтора (Ctrl+Y).
 
-> Tip: You can left-click history elements to *rewind* to that point, or right-click to point your camera towards the center of the edit.
+> Совет: Вы можете щелкнуть левой кнопкой мыши на элементах истории, чтобы "перемотать" к этому моменту, или щелкнуть правой кнопкой мыши, чтобы направить камеру в центр редактирования.
