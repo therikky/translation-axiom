@@ -1,4 +1,4 @@
-# Capabilities
-This chapter covers Capabilities, toggleable features which can enhance your building workflow.
+# Возможности:
+В этой главе рассматриваются возможности - переключаемые функции, которые могут улучшить рабочий процесс сборки.
 
-By default, the **Replace Mode** capability can be toggled using the R keybind. Toggle keybinds for all capabilities can be configured in the vanilla keybinds menu.
+По умолчанию возможность **режима замены** можно переключить с помощью привязки клавиши R. Переключаемые привязки для всех возможностей можно настроить в меню "Ванильные привязки".
