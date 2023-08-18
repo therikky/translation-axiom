@@ -5,11 +5,11 @@
     
 | Функции       | сочитания клавиш по умолчанию | Описание                                              |
 |----------------|------------------|----------------------------------------------------------|
-| Отмена         | Ctrl+Z           | Reverses the most recent action                          |
-| Повтор         | Ctrl+Y           | Reverses the most recent undo                            |
-| Cut            | Ctrl+X           | Removes the selection and stores it in the clipboard     |
-| Copy           | Ctrl+C           | Copies the selected item to the clipboard                |
-| Save Blueprint | Ctrl+P           | Saves the current selection as a blueprint for later use |
+| Отмена         | Ctrl+Z           | Отменяет последнее действие                              |
+| Повтор         | Ctrl+Y           | Отменяет последнее отменяющее действие                   |
+| Вырезать       | Ctrl+X           | Снимает выделение и сохраняет его в буфере обмена        |
+| Копирование    | Ctrl+C           | Копирует выбранный элемент в буфер обмена                |
+| Сохранить      | Ctrl+P           | Сохраняет текущий выбор в качестве чертежа для последующего использования |
 
 ## Select
     
