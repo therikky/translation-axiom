@@ -1,7 +1,7 @@
-# Weld
+# Сварка
 
-The **Weld** tool is a tool that uses a Gaussian blur to add on mass to a surface in a way similar to how using a welding machine with filament would add mass to an area. It can be used to make seams between harsh edges or to flare out the land mass from an existing area onto a flat surface in a seamless blend. It uses the active block to determine what blocks to place. It is partially configured using the brush settings and has a few more settings that change the algorithm in specific ways.
+Инструмент **Сварка** — это инструмент, использующий размытие по Гауссу для добавления массы поверхности подобно тому, как использование сварочного аппарата с нитью накала добавляет массу области. Его можно использовать для создания швов между резкими краями или для выделения массива земли из существующей области на плоскую поверхность в виде бесшовного перехода. Он использует активный блок, чтобы определить, какие блоки разместить. Он частично настраивается с помощью настроек кисти и имеет еще несколько настроек, которые определенным образом изменяют алгоритм.
 
-The Smoothing strength can be adjusted to make smoother welds, a higher smoothing setting means that the tool will need a lower threshold to operate as they constrain each other. Generally a higher smoothing strength will also increase the size of the affected area.
+Интенсивность сглаживания можно отрегулировать, чтобы сделать швы более гладкими, более высокая настройка сглаживания означает, что инструменту потребуется более низкий порог для работы, поскольку они ограничивают друг друга. Как правило, более высокая сила сглаживания также увеличивает размер пораженной области.
 
-The Smoothing threshold can be adjusted to make it harder for the tool to affect a given area. This makes it possible to constrain the tool in a way that helps to create more natural flares and seams into existing builds.
+Порог сглаживания можно настроить, чтобы инструменту было труднее воздействовать на заданную область. Это позволяет ограничивать инструмент таким образом, чтобы создавать более естественные блики и швы в существующих сборках.
