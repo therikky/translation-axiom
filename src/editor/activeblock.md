@@ -1,10 +1,10 @@
-# Active Block
+# Активный блок
 
-Some tools use the block specified in the **Active Block** window. This includes most of the painting and drawing tools.
+Некоторые инструменты используют блок, указанный в окне **Активный блок**. К ним относится большинство инструментов рисования и раскрашивания.
 
-Blocks in the Editor UI can be drag-dropped on different locations to various effects:
- - Into other UI elements (eg. tool mask) to quickly copy the block over
- - Into the main viewport to fill the targeted selection (similar to Ctrl+F)
- - Into the main viewport to flood replace the targeted block with the dropped block
+Блоки в пользовательском интерфейсе редактора можно перетаскивать в разные места с различными эффектами:
+ - в другие элементы пользовательского интерфейса (например, в маску инструмента) для быстрого копирования блока.
+ - В основной области просмотра для заливки выделенной области (аналогично Ctrl+F)
+ - В основной области просмотра для заливки с заменой выделенного блока на выпавший блок
 
-The **Active Block** can be quickly set using 'pick block', which is bound to middle-click by default.
+Активный блок** может быть быстро установлен с помощью функции "выбрать блок", которая по умолчанию привязана к среднему щелчку мыши.
