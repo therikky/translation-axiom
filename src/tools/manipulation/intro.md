@@ -1,3 +1,5 @@
-# Manipulation Tools
+# Инструменты манипулирования# Инструменты манипулирования
 
-The Manipulation tools are a series of tools aimed at changing existing terrain into a more desired shape or form. For example, after having made a mountain or cliff somewhere and then using these tools to help refine their shape by means of smoothing, roughening, distorting, etc. Each tool has a pretty different effect on the world and common to use these tools intermediately between tools that add more mass or sculpt the world more as well as in succession of other manipulation tools in order to get the most desirable outcome.
+Инструменты манипулирования — это набор инструментов, предназначенных для изменения существующего ландшафта в более желаемую форму или форму. Каждый инструмент по-разному влияет на мир и общие в качестве промежуточного звена между инструментами, которые добавляют больше массы или больше лепят мир, а также последовательно с другими инструментами манипулирования, чтобы получить наиболее желаемый результат.
+
+
