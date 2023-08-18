@@ -1,7 +1,7 @@
-# Text
+# Текст
 
-The **Text** tool lets the user write text with any True Type Font or .ttf file font in the world. It can be configured to have a smaller or larger font scale
+Инструмент **Текст** позволяет пользователю писать текст с использованием любого шрифта True Type или файлового шрифта .ttf в мире. Его можно настроить так, чтобы он имел меньший или больший масштаб шрифта.
 
-Just write the text desired into the ‘Text’ field and right-click to place it in the world with a gizmo.
+Просто напишите нужный текст в поле «Текст» и щелкните правой кнопкой мыши, чтобы поместить его в мир с помощью гизмо.
 
-> Note: As of Axiom-b0.97, the text tool is unfinished and provided for demonstration purposes only. Thank you for your understanding
+>> Примечание. Начиная с версии Axiom-b0.97 текстовый инструмент не доработан и предоставляется только в демонстрационных целях. Спасибо за Ваше понимание
