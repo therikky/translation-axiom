@@ -11,7 +11,7 @@
 | Копирование    | Ctrl+C           | Копирует выбранный элемент в буфер обмена                |
 | Сохранить      | Ctrl+P           | Сохраняет текущий выбор в качестве чертежа для последующего использования |
 
-## Выбор
+## Выделение
     
 Подменю выбора позволяет пользователям выполнять различные функции, связанные с выбором.
     
@@ -21,7 +21,7 @@
 | Маска    | Выбирает блоки в текущей выборке, которые соответствуют выбранному блоку |
 | Развернуть | Расширяет текущий выбор на заданное количество блоков |
 | сокращение | Сокращает текущее выделение на заданное количество блоков |
-| Distort  | Distorts the current selection with simplex noise by a specified radius and distance. Radius is the scale of the noise and the distance is the amount it gets distorted by |
+| Искажение  | Искажает текущее выделение симплексным шумом на заданный радиус и расстояние. Радиус - это масштаб шума, а расстояние - величина, на которую он искажается |
 | Smooth   | Applies a Gaussian blur on the selection to smooth out the selection. StdDev is the intensity of the smoothing operation and the threshold is the ‘cut-off’ of how much input weight is needed to affect the output |
 | Bounding Box | Creates a cuboid selection around the furthest points of the selection, encapsulating the entire selection |
 
