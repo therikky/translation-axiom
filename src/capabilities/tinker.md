@@ -9,7 +9,7 @@
 |Блок                                |Эфект откладки                                                |
 |-------------------------------------|-------------------------------------------------------------|
 |Блоки с вариантами полного/лестничного/перекрытия |Преобразование между полным/лестничным/перекрытием путем добавления/удаления углов   |
-|Walls                                |Cycle WallSide (none/low/tall) of targeted side              |
+|Стены                                |цикличная сторона стены (низкая/высокая) целевой стороны              |
 |Fences/Iron bars                     |Toggle north/east/south/west sides                           |
 |Piston                               |[Side] Change facing, [Front] Extends/retracts the piston    |
 |Furnace                              |[Side] Change facing, [Front] Toggles lit state              |
