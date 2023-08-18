@@ -1,19 +1,19 @@
-# Blueprints
+# Чертежи
 
-Blueprints are a system for saving and loading prefabricated assets. They are similar to schematics, but with a different structure optimized for searching and viewing. 
+Чертежи - это система сохранения и загрузки готовых объектов. Они похожи на схемы, но имеют другую структуру, оптимизированную для поиска и просмотра. 
 
-## Creating a blueprint
+## Создание чертежа
+Для создания **чертежей** достаточно иметь в буфере обмена содержимое и нажать Ctrl+P. Откроется меню **Создать чертеж**. Здесь можно сделать несколько действий: дать имя чертежу, добавить авторов, теги и повернуть чертеж, чтобы создать его миниатюру для последующего распознавания.
 
-A **Blueprint** can be created by having content in your clipboard and pressing Ctrl+P. This brings up the **Create Blueprint** menu. In here you can do a few things, you can name your blueprint, add authors, tags and rotate your blueprint to generate a thumbnail to easily recognize it later.
+Авторы, теги и имена - это способы, с помощью которых можно легко найти чертежи в дальнейшем. Например, поиск по тегу "дерево" или "структура" позволяет найти все чертежи, содержащие этот тег. В Axiom имеется несколько десятков стандартных тегов, позволяющих охватить широкий спектр возможных чертежей, но если они не удовлетворяют вашим потребностям, вы всегда можете создать свой собственный тег, нажав на "+", введя название и нажав кнопку "Создать тег" в меню "Добавить тег".
 
-Authors, tags and names are all ways by which you can easily look up blueprints later. For example by searching the tag ‘tree’ or ‘structure’ you can find all blueprints that include that tag. There are a couple dozen default tags that Axiom ships with in order to cover a wide array of possible blueprints but if those don’t quite cover your needs you can always create your own tag by clicking the ‘+’, entering the name and clicking the ‘Create Tag’ button inside the ‘Add Tag’ menu.
+При сохранении чертежа открывается диалог файловой системы, характерный для вашей операционной системы. Он подтверждает имя, которое вы хотите дать чертежу, и позволяет сохранить его в виде файла .bp на вашем локальном компьютере. Это означает, что вы можете легко создавать чертежи в одном мире или на одном сервере, а затем использовать их в другом мире без необходимости разбираться с запутанными схемами импорта или экспорта. Сами файлы хранятся в папке .minecraft в разделе `.minecraft/config/axiom/blueprints`.
 
-When you save a blueprint a file system dialog opens up native to your operating system. This confirms the name you want to give to the blueprint and lets to save it as a .bp file on your local computer. This means that you can easily create blueprints in one world or server and then use them in another world without having to deal with messy import or export schemas. The files themselves are stored in your .minecraft folder under `.minecraft/config/axiom/blueprints`
 
-## Sharing blueprints
+## Обмен чертежами
 
-The blueprint files themselves can be sent to others who can then also use them in Axiom if they place the files in the designated file location. The blueprint folder supports nested directories as well, meaning that you can for example, put all your trees in one folder under the blueprints folder.
+Сами файлы чертежей можно пересылать другим пользователям, которые также могут использовать их в Axiom, если поместят их в указанное место. Папка с чертежами также поддерживает вложенные каталоги, то есть вы можете, например, поместить все свои деревья в одну папку в папке с чертежами.
 
-## Loading blueprints
+## Загрузка чертежей
 
-Once you have Blueprints, you can view them in the **Blueprint Browser**. You'll be able to see thumbnails for all of your blueprints, as well as perform searches or filter by tags. Clicking a blueprint will 'open' it and place the blocks into your [clipboard](blocks_and_clipboard.md#clipboard).
+После получения чертежей их можно просматривать в **Blueprint Browser**. Вы сможете увидеть эскизы всех своих чертежей, а также выполнить поиск или фильтрацию по тегам. Щелчок на чертеже "открывает" его и помещает блоки в [буфер обмена](blocks_and_clipboard.md#clipboard).
