@@ -1,4 +1,4 @@
-# Replace Mode
-The **Replace Mode** capability allows you to right-click to replace the targeted block with the held block. This allows you to easily replace a large amount of blocks by holding the right-mouse button instead of needing to press left+right click for each individual block you want to replace.
+# Режим замены
+Функция **режим замены** позволяет щелчком правой кнопки мыши заменить целевой блок на удерживаемый блок. Это позволяет легко заменить большое количество блоков, удерживая правую кнопку мыши, вместо того чтобы нажимать левую кнопку мыши+правую кнопку мыши для каждого отдельного блока, который необходимо заменить.
 
-Additionally, when you replace a block, the newly placed block will inherit the properties of the old block. This mechanic means that, for example, if you have a copper stair and replace it with an oak stair, the oak stair will be in the exact same orientation and shape as the original copper stair.
+> Кроме того, при замене блока новый блок наследует свойства старого блока. Это означает, что, например, если у вас есть медная лестница и вы заменяете ее дубовой, то дубовая лестница будет иметь точно такую же ориентацию и форму, как и исходная медная лестница.
