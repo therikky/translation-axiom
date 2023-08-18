@@ -29,13 +29,13 @@
 
 Подменю просмотра позволяет настроить параметры, связанные с просмотром и визуализацией определенных элементов в мире.
 
-| Функция        | сочитания клавиш по умолчанию | Description |
+| Функция        | сочитания клавиш по умолчанию | Описание |
 |----------------|------------------|-------------|
-| New View       | None             | Create a new [View](views.html) |
-| Show Selection | None             | Lets you toggle the rendering of your selections |
-| Show Biomes    | Ctrl+B           | Enables the biome overlay[^note1] |
-| Min Brightness | None             | A slider ranging from 0 to 1. This lets you change how dark unlit places look in your world. A value of 1 means all blocks are fully lit, this is also known as fullbright 
-| Fluid Opacity  | None             | A slider ranging from 0 to 1. This lets you change the opacity of transluscent[^note2] fluids to make it easier to look through. A value of 0 will make the fluid invisible |
+| Новый вид       | Нет             | Создать новый [Вид](views.html) |
+| Показать выделение | Нет             | Позволяет переключать визуализацию вашего выделения |
+| Показать биомы    | Ctrl+B           | Включает овердей биома[^note1] |
+| Минимальная яркость | Нет             | Ползунок в диапазоне от 0 до 1. Он позволяет изменить внешний вид темных неосвещенных мест в вашем мире. Значение 1 означает, что все блоки полностью освещены, это также называется полной яркостью. 
+| Непрозрачность жидкости  | Нет            | A slider ranging from 0 to 1. This lets you change the opacity of transluscent[^note2] fluids to make it easier to look through. A value of 0 will make the fluid invisible |
 | Show Key Presses| None            | This shows your inputs including mouse clicks on the bottom right of the viewport. This is useful for making tutorials. |
 
 [^note1]: Be aware that biomes in Minecraft are defined in a 4x4x4 grid. However, in order to make biomes feel more natural, vanilla warps the biomes visually. The biome overlay shows the "real" position of biomes, while biome blending and the f3 screen show the "warped" position of biomes.
