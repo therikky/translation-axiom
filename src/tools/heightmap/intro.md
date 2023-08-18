@@ -1,3 +1,3 @@
-# Heightmap Tools
+# Инструменты карты высот
 
-Heightmap tools are used to affect areas in a ‘2D’ way. This works by adding or removing height one layer at a time in the same way that heightmap-based tools like World Machine or World Painter do.
+Инструменты карты высот используются для воздействия на области «2D» способом. Это работает, добавляя или удаляя высоту по одному слою за раз, так же, как инструменты на основе высоты карты
