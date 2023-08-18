@@ -1,12 +1,12 @@
-# Main Menu Bar
-The main menu bar gives users access to crucial functionality of the mod. Here you can find menu items for accessing windows, manipulating selections, performing operations and viewing helpful information.
+# Панель главного меню
+Строка главного меню предоставляет пользователям доступ к важнейшим функциям программы. Здесь находятся пункты меню для доступа к окнам, работы с выбором, выполнения операций и просмотра полезной информации.
 
-## Edit
+## Редактирование
     
-| Function       | Default Shortcut | Description                                              |
+| Функции       | сочитания клавиш по умолчанию | Описание                                              |
 |----------------|------------------|----------------------------------------------------------|
-| Undo           | Ctrl+Z           | Reverses the most recent action                          |
-| Redo           | Ctrl+Y           | Reverses the most recent undo                            |
+| Отмена         | Ctrl+Z           | Reverses the most recent action                          |
+| Повтор         | Ctrl+Y           | Reverses the most recent undo                            |
 | Cut            | Ctrl+X           | Removes the selection and stores it in the clipboard     |
 | Copy           | Ctrl+C           | Copies the selected item to the clipboard                |
 | Save Blueprint | Ctrl+P           | Saves the current selection as a blueprint for later use |
