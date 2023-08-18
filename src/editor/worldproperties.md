@@ -1,24 +1,26 @@
-# World Properties
+# Мировые свойства
 
-The **World Properties** window lets you change certain properties and vanilla behavior about the world. This is freely accessed in single player worlds but permissions need to be granted on multiplayer due to the significant impact that these might have for those sharing a world with others. See below for the various world properties you can adjust.
+Окно **Свойства мира** позволяет изменить определенные свойства и ванильное поведение мира. Это свободно доступно в одиночных мирах, но разрешения должны быть предоставлены в многопользовательской игре из-за значительного влияния, которое они могут оказать на тех, кто делит мир с другими.
+Ниже приведены различные свойства мира, которые вы можете настроить.
 
-## Time
-    
-The **Time** submenu lets you change things about the time in the world. You can freeze the time in the world, use the slider for a specific time or use a preconfigured time by pressing the designated buttons.
-    
-## Player
-    
-The **Player** submenu lets you adjust properties relating to the player entity:
-    
-- **Player Invulnerability** Prevents all forms of death, including void damage and /kill.
-- **Trample Farmland** Disabling this property prevents farmland from being trampled.
-- **Mob Spawning** This property corresponds to the vanilla "doMobSpawning" gamerule.
 
-## Blocks
+## Время
     
-The **Blocks** submenu lets you adjust properties relating to blocks in the world
+Подменю **Время** позволяет изменить время в мире. Вы можете заморозить время в мире, использовать ползунок для определенного времени или использовать предварительно настроенное время, нажав назначенную кнопку.
+    
+## Игрок
+    
+Подменю **игрок** позволяет настраивать свойства, относящиеся к объекту игрока:
+    
+- **Неуязвимость игрока** Предотвращает все формы смерти, включая урон от пустоты и /kill.
+- **Вытаптывание сельскохозяйственных угодий** Отключение этого свойства предотвращает вытаптывание сельскохозяйственных угодий. 
+- **Спавн мобов** Это свойство соответствует ванильному игровому правилу «doMobSpawning».
 
-- **Block Drops** Disabling this property will prevent all drops from blocks, including items when breaking inventory blocks like chests.
-- **Block Gravity** Disabling this property will prevent gravity-affected blocks like sand and gravel from falling.
-- **Fire Tick** This property corresponds to the vanilla "doFireTick" gamerule.
-- **Random Tick Speed** is a slider which corresponds to the vanilla "randomTickSpeed" gamerule. Setting this to 0 will disable random ticking.
+## Блоки
+    
+Подменю **Блоки** позволяет настраивать свойства блоков в мире.
+
+- **Block Drops** Отключение этого свойства предотвратит выпадение всех предметов из блоков, включая предметы при разрушении блоков инвентаря, таких как сундуки.
+- **Блокировать гравитацию** Отключение этого свойства предотвратит падение блоков, подверженных гравитации, таких как песок и гравий.
+- **Fire Tick** Это свойство соответствует ванильному игровому правилу «doFireTick».
+- **Рандомная скорость тиков** — это ползунок, который соответствует ванильному игровому правилу «randomTickSpeed». Установка этого параметра на 0 отключит случайное тиканье.
