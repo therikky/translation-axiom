@@ -1,3 +1,1 @@
-This repository contains the documentation for [Axiom](https://axiom.moulberry.com).
-
-The documentation can be viewed [here](https://axiomdocs.moulberry.com/).
+Перевод страниц находится в папке [src](https://github.com/flufi230-byte/translation-axiom/tree/master/src)
