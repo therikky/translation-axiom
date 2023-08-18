@@ -1,7 +1,7 @@
-# Melt
+# Расплавление
 
-The **Melt** tool is a tool that uses a Gaussian blur to subtract mass from a surface. The best way to describe it is being the opposite of the **Weld** tool. Rather than flaring out edges or filling in seams it can be used to melt into or carve away at surfaces in a way that blends in with the existing terrain to make things like erosion patterns. It is partially configured using the brush settings and has a few more settings that change the algorithm in specific ways.
+Инструмент **Расплавление** — это инструмент, использующий размытие по Гауссу для вычитания массы из поверхности. Лучше всего это можно описать как противоположность инструменту **Сварка**. Вместо того, чтобы расширять края или заполнять швы, его можно использовать для плавления или вырезания поверхностей таким образом, чтобы они сливались с существующей местностью, создавая такие вещи, как узоры эрозии. Он частично настраивается с помощью настроек кисти и имеет еще несколько настроек, которые определенным образом изменяют алгоритм.
 
-The Smoothing strength can be adjusted to make smoother melting paths, a higher smoothing setting means that the tool will need a lower threshold to operate as they constrain each other. Generally a higher smoothing strength will also increase the size of the affected area.
+Силу сглаживания можно отрегулировать, чтобы сделать траектории плавления более гладкими, более высокая настройка сглаживания означает, что инструменту потребуется более низкий порог для работы, поскольку они ограничивают друг друга. Как правило, более высокая сила сглаживания также увеличивает размер пораженной области.
 
-The Smoothing threshold can be adjusted to make it harder for the tool to affect a given area. This makes it possible to constrain the tool in a way that helps to create more natural looking carvings and erosion patterns.
+Порог сглаживания можно настроить, чтобы инструменту было труднее воздействовать на заданную область. Это позволяет ограничивать инструмент таким образом, что помогает создавать более естественные резные фигурки и узоры эрозии.
