@@ -1,8 +1,8 @@
-# Force Place
-The **Force Place** capability bypasses normal placement restrictions.
+# Быстрая замена блоков
+Способность **быстрой замены блоков** позволяет обойти обычные ограничения на размещение.
 
-- Blocks which normally need to be attached to solid blocks can be placed in mid air
-- Blocks can be placed inside entities (including yourself)
-- Plant blocks no longer need to be placed on farmland (or sand/dirt for sugarcane and clay for dripleaf)
-- Blocks can be placed regardless of light level
-- And many more!
+- Блоки, которые обычно должны быть вствлены к твердым блокам, могут быть размещены в воздухе
+- Блоки можно помещать внутрь объектов (включая себя)
+- Блоки растений больше не нужно размещать на сельскохозяйственных почвах (или на песке/грязи для сахарного тростника и глине для капельного листа и т.п)
+- Блоки можно размещать независимо от уровня освещенности теретории
+- И многое другое!
