@@ -1,11 +1,12 @@
-# Tinker
-The **Tinker** capability has various features related to right-clicking with your fist on blocks. Tinker often can be used in place of the debug stick, being slighty faster compared to the debug stick's clunky interface but sometimes lacking the ability to change some non-visual properties.
+# Откладка:
+Возможность **откладки** обладает различными функциями, связанными с нажатием правой кнопки мыши на блоках. Откладка часто может использоваться вместо отладочной палочки, что несколько быстрее, чем неудобный интерфейс отладочной палки, но иногда не позволяет изменять некоторые невизуальные свойства.
 
-Aiming at specific parts of a block can change the effect of the tinker. This lets you quickly change full blocks into stairs, stairs into slabs and vice versa. It also lets you easily adjust walls/fences to create states that Minecraft normally doesn’t allow.
+Наведя курсор в определенные части блока, можно изменить действие откладки. Это позволяет быстро превращать целые блоки в лестницы, лестницы в плиты и наоборот. Это также позволяет легко изменять стены/заборы, создавая состояния, которые в Minecraft обычно недоступны.
 
-Tinker interactions can be negated while the capability is toggled on by either having a non-empty hand or by holding down the sneak or ‘shift’ button.
+> Взаимодействие с откладкой может быть отменено при включенной возможности, если у вас не пустая рука или если вы удерживаете кнопку "shift".
 
-|Block                                |Tinker Effect                                                |
+
+|Блок                                |Эфект откладки                                                |
 |-------------------------------------|-------------------------------------------------------------|
 |Blocks with full/stair/slab variants |Convert between full/stair/slab by adding/removing corners   |
 |Walls                                |Cycle WallSide (none/low/tall) of targeted side              |
@@ -32,8 +33,8 @@ Tinker interactions can be negated while the capability is toggled on by either 
 |Cake                                 |Cycles bites                                                 |
 
 
-Additionally:
-- Right-clicking with Moss Block on cobblestone/stone converts the block into its mossy variant
-- Right-clicking with Shears on removes mossy
-- Right-clicking on a pot with a plant replaces the plant inside the pot
+Дополнительно:
+- При нажатии правой кнопкой мыши на булыжнике/камне блок превращается в моховую разновидность.
+- Щелчок правой кнопкой мыши по ножницам удаляет мох
+- Щелчок правой кнопкой мыши на горшке с растением заменяет растение в горшке
 
