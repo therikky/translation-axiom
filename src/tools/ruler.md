@@ -1,15 +1,15 @@
-# Ruler Tool
+# Инструмент «Линейка»
 
-The **Ruler** Tool is designed to measure the distance between two or more points in a world. You can add points to the world by right-clicking. Once you have selected two or more points, a line appears between the most recent point and the one before it. The rounded Euclidean distance, or straight line distance, is shown in the centre of this line. You can keep adding more points as needed.
+Инструмент **Линейка** предназначен для измерения расстояния между двумя или более точками в мире. Вы можете добавить точки в мир, щелкнув правой кнопкой мыши. После выбора двух или более точек между самой последней точкой и точкой, предшествующей это, появится линия. В центре этой линии показано округленное евклидово расстояние или расстояние по прямой. Вы можете продолжать добавлять больше очков по мере необходимости.
 
-When you check the tool options, you'll find more information about these points. What's shown depends on whether you've chosen two or more points.
+Когда вы проверите параметры инструмента, вы найдете больше информации об этих точках. То, что отображается, зависит от того, выбрали ли вы две или более точки.
 
-Here's the information you'll see:
+Вот информация, которую вы увидите:
 
-- Total Length (Euclidean): This is the straight-line distance from the first point to the last one, as if a bird flew directly there, not caring about the blocks in between.
-- Total Length (Manhattan): This is the sum of the horizontal, vertical, and depth distances. In Minecraft terms, it's like how a player would travel: one block up, down, left, right, forward, or backward at a time.
-- Minimum: The coordinates of the earliest point in the sequence of points.
-- Maximum: The coordinates of the latest point in the sequence of points.
-- Bounding Size: The size of the box needed to draw around all the points.
-- Yaw (Only visible with two points): The yaw of the line between two points.
-- Pitch (Only visible with two points): The pitch of the line between two points.
+- Общая длина (евклидова): это расстояние по прямой от первой точки до последней, как если бы птица летела прямо туда, не заботясь о блоках между ними.
+- Общая длина (Манхэттен): это сумма расстояний по горизонтали, вертикали и глубине. В терминах Minecraft это похоже на то, как игрок будет путешествовать: на один блок вверх, вниз, влево, вправо, вперед или назад.
+- Минимум: координаты самой ранней точки в последовательности точек.
+- Максимум: координаты последней точки в последовательности точек.
+-- Размер границы: размер рамки, необходимый для рисования вокруг всех точек.
+- рыскание (отображается только с двумя точками): отклонение линии между двумя точками. 
+- Шаг (отображается только с двумя точками): шаг линии между двумя точками.
