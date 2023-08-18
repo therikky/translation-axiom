@@ -8,7 +8,7 @@
 
 |Блок                                |Эфект откладки                                                |
 |-------------------------------------|-------------------------------------------------------------|
-|Blocks with full/stair/slab variants |Convert between full/stair/slab by adding/removing corners   |
+|Блоки с вариантами полного/лестничного/перекрытия |Преобразование между полным/лестничным/перекрытием путем добавления/удаления углов   |
 |Walls                                |Cycle WallSide (none/low/tall) of targeted side              |
 |Fences/Iron bars                     |Toggle north/east/south/west sides                           |
 |Piston                               |[Side] Change facing, [Front] Extends/retracts the piston    |
