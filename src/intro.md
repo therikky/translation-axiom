@@ -1,5 +1,5 @@
-# Introduction
-Welcome to the Axiom Documentation, an introductory book about the all-in-one tool for editing Minecraft worlds. The goal of Axiom is to help you build terrain, organics and structures faster and to a higher quality. The mod brings innovative new tools and algorithms, while also improving ergonomics by reducing the feedback loop through realtime clientside visualizations. 
+# Введение:
+Привествуем в документации Axiom, эта документация о универсальном инструменте для редактирования миров Minecraft. Цель мода Axiom это помощь в создании рельефа, органики и структур мира намного быстрее и лучше. Мод добавляет новые инновационные инструменты и алгоритмы, при этом повышается эргономичность за счет визуализации в реальном времени на стороне клиента. 
 
-## Who Axiom Is For
-Axiom is intended for everyone from novice to professional. The tools are intuitive and easy to approach, while still providing lots of depth through settings for experienced users.
+## Для кого предназначен Axiom:
+Axiom предназначен для всех - от новичков до профессионалов. Инструменты понятны и просты в использовании, но в то же время обеспечивают большое количество настроек для пользователей.
