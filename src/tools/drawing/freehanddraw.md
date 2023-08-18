@@ -1,3 +1,3 @@
-# Freehand Draw
+# Рисование от руки
 
-The **Freehand Draw** tool is the most basic sculpting tool. Its only options are standard brushes, and it changes the blocks in the brush path to the currently selected active block.
+Инструмент **Рисование от руки** — это самый простой инструмент для скульптинга. Это только параметры стандартных кистей, и он изменяет блоки на текущий выбранный блок.
