@@ -1,5 +1,5 @@
-# Painter
+# Кисточка
 
-The **Painter** is the most basic painting tool. It allows you to paint blocks with a single type using a brush stroke.
+Кисточка — самый простой инструмент для рисования. Это позволяет рисовать блоки одним типом, используя мазок кисти.
 
-The **Mask Surface** option allows only painting blocks which are adjacent to a non-solid block.
+Параметр **Поверхность маски** позволяет рисовать только те блоки, которые находятся рядом с не сплошным блоком.
