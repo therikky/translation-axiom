@@ -1,4 +1,4 @@
-# No Updates
-The **No Updates** capability ‘freezes’ blocks and adjacent blocks in their current state and prevents shape and neighbour updates when breaking or placing blocks nearby.
+# Нет обновлениям:
+Возможность **нет обновлениям** "замораживает" блоки и соседние блоки в их текущем состоянии и предотвращает обновление формы и соседей при разрушении или размещении блоков рядом.
 
-This is useful when working with "non-vanilla" states of stairs/fences/walls/etc. which would normally revert to their vanilla state when breaking/placing blocks near them.
+Это полезно при работе с "неванильными" состояниями лестниц/заборов/стен и т.д., которые обычно возвращаются в свое "ванильное" состояние при разрушении/постановке блоков рядом с ними.
