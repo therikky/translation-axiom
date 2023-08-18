@@ -1,9 +1,9 @@
-# Biome Painter
+# Кисточка Биомов
 
-The **Biome Painter** is similar to the **Painter** tool, except it paints biomes instead of blocks. Biomes in Minecraft are represented by a 4x4x4 cell of blocks stopping at world height. Though biomes are stored in cells, they are altered in the rendering to make their shape irregular.
+**Кисточка Биомов** похожа на **Кисточку**, за исключением того, что он рисует биомы, а не блоки. Биомы в Minecraft представлены ячейкой блоков 4x4x4, останавливающихся на высоте мира. Хотя биомы хранятся в ячейках, они изменяются при рендеринге, чтобы сделать их форму неправильной.
 
-You can select any biome from the dropdown, including modded biomes sent to the client.
+Вы можете выбрать любой биом из выпадающего списка, включая модифицированные биомы, отправленные клиенту.
 
-The Fill Vertically option fills the entire span of the world height when enabled, allowing users to quickly paint the entire column.
+Параметр «Заполнить по вертикали», если он включен, заполняет весь диапазон высоты мира, позволяя пользователям быстро закрасить весь столбец.
 
-The Visualize Biome toggle is on by default and shows the 'real' position of biomes in the 4x4x4 grid.
+Переключатель «Визуализация биома» включен по умолчанию и показывает «реальное» положение биомов в сетке 4x4x4.
