@@ -1,4 +1,4 @@
-# Enhanced Flight
-The **Enhanced Flight** capability changes your normal creative mode flight to a more precise flight without any leftover momentum. It also allows you to move in the direction the camera is facing.
+# Улучшенный Полет
+Функция **Улучшенный Полет** изменяет ваш обычный полет в творческом режиме на более точный полет без остаточного импульса. Это также позволяет вам двигаться в направлении камеры.
 
-> Some users have mentioned that it took some time to get used to the enhanced flight, but once they did it improved their building experience dramatically. I'd recommend trying out the capability for at least a little bit to see if it suits your building workflow.
+> Некоторые пользователи упомянули, что им потребовалось некоторое время, чтобы привыкнуть к улучшенному полету, но как только они это сделали, их впечатления от строительства значительно улучшились. Я бы порекомендовал попробовать эту возможность хотя бы немного, чтобы увидеть, подходит ли она для вас во время строительства или нет.
