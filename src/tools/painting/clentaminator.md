@@ -1,8 +1,8 @@
-# Clentaminator
+# Очиститель
 
-The **Clentaminator** is a set of predefined painting tools that typically have complex set of predefined placement rules which don’t fall under other cateogories. Due to this they often use advanced algorithms to produce interesting patterns but are more specific in which cases they can be used.
+**Очиститель** — это набор предопределенных инструментов рисования, которые обычно имеют сложный набор предопределенных правил размещения, не подпадающих под другие категории. Из-за этого они часто используют продвинутые алгоритмы для создания интересных шаблонов, но более конкретно указывают, в каких случаях их можно использовать.
 
-The clentaminator lets you configure the brush to define the stroke path, just like other tools. Other than that it has two other options which can be toggled and configured. **Terrain** and **Decorations**. They can be mixed and matched to provide a wide range of customization.
+Очиститель позволяет настроить кисть для определения пути штриха, как и другие инструменты. Помимо этого, у него есть две другие опции, которые можно переключать и настраивать. **Ландшафт** и **Украшения**. Их можно смешивать и сочетать, чтобы обеспечить широкий спектр настроек.
 
 ## Terrain
 
