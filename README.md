@@ -3,3 +3,7 @@
 
 ## оригинал:
 Весь сайт был взят с документации [Axiom](https://github.com/Moulberry/AxiomDocumentation) и переведён на русский
+
+## переводчики:
+
+> Discord: guosty, therikky_
