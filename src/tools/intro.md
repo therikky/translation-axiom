@@ -1,11 +1,9 @@
-# Tools
+## Инструменты
+Axiom представляет богатый набор инструментов для точного управления миром Minecraft в режиме реального времени. Эти инструменты легко доступны в верхнем слое окна «Инструменты». Кроме того, окно «Параметры инструмента» предлагает дополнительные возможности настройки. Каждый инструмент поставляется со своими уникальными настройками, которые могут кардинально изменить его функциональность и воздействие. Мы поощряем исследования и эксперименты, поскольку они могут привести к непредвиденным, но увлекательным или полезным применениям этих инструментов.
 
-Axiom presents a rich set of tools for real-time, precise manipulation of your Minecraft world. These tools are readily accessible in the top layer of the 'Tool' window. Additionally, the 'Tool Options' window offers further configuration possibilities. Each tool comes with its unique settings that can dramatically change its functionality and impact. We encourage exploration and experimentation as it can lead to unanticipated yet fascinating or beneficial applications of these tools.
+> Примечание. Щелкнув ползунок с нажатой клавишей Ctrl, вы можете вручную ввести значение, превышающее пределы параметров по умолчанию. Используйте эту функцию с осторожностью.
 
-Note: By ctrl clicking on a slider, you can manually input a value that exceeds the default parameter limits. Use this feature with caution.
+### Кисти
+Большинство инструментов, используемых для управления миром, используют формат, известный как «кисти». Кисти позволяют пользователю щелкать и перетаскивать в мире предопределенную форму, чтобы собирать блоки для включения в путь кисти. Вы можете выбрать форму кисти в выпадающем меню. Форма по умолчанию — сфера.
 
-## Brushes
-
-Most tools used to manipulate the world use a format known as ‘brushes’. Brushes let the user click and drag in the world with a predefined shape in order to gather blocks to include in the brush’s path. You can select the shape of the brush in the dropdown menu. The default shape is a sphere.
-
-You can choose from a sphere, a cube or an octahedron.
+Вы можете выбрать сферу или куб.
