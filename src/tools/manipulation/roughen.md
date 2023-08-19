@@ -1,9 +1,8 @@
-# Roughen
+# Добавить грубость
+Инструмент для добавления грубости предназначен для создания грубых или зазубренных краев на местности, по существу выступая в качестве противоположности инструменту сглаживания. Он работает, «огрубляя» или делая местность менее гладкой. Размер кисти можно настроить для изменения пораженной области.
 
-The **Roughen** tool is designed to create rugged or jagged edges in the terrain, essentially serving as the opposite of the smoothing tool. It works by "roughening" or making the terrain less smooth. It’s brush size can be configured to change the affected area.
+Он работает путем анализа того, сколько граней (сторон блоков) в настоящее время подвергается воздействию воздуха и сколько должно быть открыто после процесса придания шероховатости. Степень шероховатости, применяемая к местности, определяется «коэффициентом шероховатости», который устанавливает пропорцию изменения.
 
-The way it functions is by analysing how many faces (sides of the blocks) are currently exposed to the air and how many should be exposed after the roughening process. The amount of roughening applied to the terrain is determined by the "roughening ratio", which sets the proportion of change.
+Параметр «Границы» представляет собой ползунок, который может варьироваться от 1 до 4. Он определяет, сколько сторон (или граней) блока будет подвергаться воздействию воздуха после процесса придания шероховатости. Если установлено значение 1, нужно будет показать меньше граней, что приведет к более грубому виду. С другой стороны, если установить значение 4, потребуется экспонировать меньше лиц, что приведет к очень неравномерному и грубому виду.
 
-The 'Faces' parameter is a slider that ranges from 1 to 4. This determines how many sides (or faces) of a block will be exposed to air after the roughening process. If the value is set to 1, fewer faces will need to be exposed, leading to a more rugged look. On the other hand, if it's set to 4, less faces will need to be exposed, resulting in a highly irregular, rough appearance.
-
-The 'Roughening Ratio' is a separate slider that you can also configure. This determines the intensity or amount of the roughening effect, or how much the terrain will be transformed. A high roughening ratio will cause a drastic change, making the terrain appear substantially more rugged. A lower ratio, on the other hand, will apply a more subtle roughening effect.
+«Коэффициент шероховатости» — это отдельный ползунок, который вы также можете настроить. Это определяет интенсивность или количество эффекта шероховатости, или насколько ландшафт будет преобразован. Высокий коэффициент шероховатости вызовет резкое изменение, из-за чего местность будет казаться существенно более неровной. С другой стороны, более низкое соотношение придаст более тонкий эффект шероховатости.
