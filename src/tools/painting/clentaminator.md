@@ -4,45 +4,45 @@
 
 Очиститель позволяет настроить кисть для определения пути штриха, как и другие инструменты. Помимо этого, у него есть две другие опции, которые можно переключать и настраивать. **Ландшафт** и **Украшения**. Их можно смешивать и сочетать, чтобы обеспечить широкий спектр настроек.
 
-## Terrain
+## Ландшафт
 
-These clentaminator presets affect solid blocks in your brush stroke
+Эти пресеты очистителя влияют на сплошные блоки в мазке кисти.
 
-### Stone
+### Камень
     
-The Stone Terrain preset is a very simple terrain tool, just setting the base to only stone.
+Пресет Каменого Ландшафта — это очень простой инструмент ландшафта, просто устанавливающий базу только на камень.
     
-### Grass
+### Трава
     
-The Grass Terrain preset naturalizes the terrain by making the top layer grass blocks followed by 3-4 layers of dirt and any terrain below that being set to stone.
+Предустановка Травянной Ландшафт натурализует ландшафт, создавая блоки травы верхнего слоя, за которыми следуют 3-4 слоя грязи, а любой ландшафт ниже заменяется камнем.
     
-### Sand
+### Песок
     
-The Sand Terrain preset makes a desert terrain by making the top 4-5 layers sand and blocks below that being set to sandstone.
+Предустановка Песчаный Ландшафт создает пустынную местность, делая верхние 4-5 слоев песком, а блоки ниже - песчаником.
     
-### Dirt Ground
+### Грязная земля
     
-The Dirt Ground Terrain preset uses a wave function collapse algorithm to make a pattern of dirt with mixed in blotches of dry mud and coarse dirt to make a quick and easy floor for things such as forest floors, paths, etc.
+Предустановка Земляной Рельеф использует алгоритм коллапса волновой функции для создания узора из грязи, смешанной с пятнами сухой грязи и грубой грязи, чтобы быстро и легко создать пол для таких вещей, как лесные подстилки, дорожки и т. д.
     
-### Gravel Ground
+### Гравийный грунт
     
-The Gravel Ground terrain preset uses a wave function collapse algorithm to make a pattern of stone mixed in with blotches of gravel and cobblestone to make a quick and easy rough rocky pattern, useful for mountain gravel slides, paths, etc.
+Предустановка ландшафта Грвийная Земля использует алгоритм коллапса волновой функции для создания узора из камня, смешанного с вкраплениями гравия и булыжника, чтобы быстро и легко создать грубый каменистый узор, полезный для горных гравийных горок, дорожек и т. д.
     
-### Fertile Ocean Floor
+### Плодородное дно океана
     
-The Fertile Ocean Floor terrain preset uses a mix of layered voronoi as well as cellular noise patterns in order to create a varied look of an ocean, swamp or riverbed floor in ‘fertile’ water areas such as mangroves near oceans, swamps, river deltas/mouths, etc.
+Предустановка ландшафта Плодородное Дно Океана использует смесь многослойных voronoi, а также моделей сотового шума, чтобы создать разнообразный вид дна океана, болота или русла реки в «плодородных» акваториях, таких как мангровые заросли вблизи океанов, болота, речные дельты / рты и др.
     
-## Decorations
+## Украшения
 
-These clentaminator presets affect non-solid blocks, often intended to be placed on top of existing terrain to help enhance the aesthetics.
+Эти пресеты клентаминатора влияют на нетвердые блоки, часто предназначенные для размещения поверх существующего ландшафта, чтобы улучшить эстетику.
 
-### Clear
+### Прозрачный
     
-The Clear decoration preset isn’t a ‘nothing’ brush, instead it can be used to clear other decorations found in the natural generation or placed by other clentaminator presets. Useful to create something like a clearing in a forest for example.
+Предустановка «Очистить украшение» не является кистью «ничего», вместо этого ее можно использовать для очистки других украшений, найденных в естественной генерации или размещенных другими предустановками клентаминатора. Полезно, например, для создания чего-то вроде поляны в лесу.
     
-### Grass
+### Трава
     
-The Grass decoration preset uses a perlin noise to randomly disperse dense plots of grass in a pleasing pattern in order to quickly decorate a plains biome, edges next to paths, etc. When selecting the grass decoration preset two new sub-settings appear:
+Предустановка «Украшение травы» использует перлиновый шум для случайного распределения плотных участков травы в приятном узоре, чтобы быстро украсить биом равнины, края рядом с дорожками и т. д. При выборе предустановки «Украшение травы» появляются два новых дополнительных параметра:
     
-- A grassiness slider ranging from 0-1 (uncapped but going above 1 has no effect) to denote how ‘grassy’ an area should be. The closer to 1 the more grass there is.
-- An ‘Allow Tall Grass’ toggle which lets the perlin noise’s most dense areas use tall grass. This creates the appearance that grass gets more dense the further in you go which can be useful for more wild areas.
+- Ползунок травянистости в диапазоне от 0 до 1 (без ограничений, но превышение 1 не влияет), чтобы указать, насколько «травянистой» должна быть область. Чем ближе к 1, тем больше травы.
+- Переключатель «Разрешить высокую траву», который позволяет использовать высокую траву в самых плотных областях шума перлина. Это создает впечатление, что трава становится более густой, чем дальше вы продвигаетесь, что может быть полезно для более диких мест.
