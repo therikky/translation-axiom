@@ -1,63 +1,63 @@
-# Noise Painter
+# Кисточка шума
 
-The **Noise Painter** is a very versatile painting tool which enables the user to use procedural noises for painting in the world. There is a large variety of noises which can be picked from and configured. Each of which having unique options and patterns useful in different scenarios.
+**Кисточка шума** — очень универсальный инструмент для рисования, который позволяет пользователю использовать процедурные шумы для рисования в мире. Существует большое разнообразие шумов, которые можно выбрать и настроить. Каждый из которых имеет уникальные параметры и шаблоны, полезные в разных сценариях.
 
-The first unqiue option is the toggle for the ‘3D’ setting. This allows the noise to be calculated in 3D, allowing for the painting of the sides of surfaces instead of just the top.
+Первая уникальная опция — это переключатель для настройки «3D». Это позволяет рассчитать шум в 3D.
 
-Next, we have the scale option, which adjusts the size of the noise relative to the block grid. A larger scale means that the noise pattern is spread over a larger area of blocks.
+Далее у нас есть опция масштабирования, которая регулирует размер шума относительно сетки блока. Больший масштаб означает, что картина шума распространяется на большую площадь блоков.
 
-## Noises
+## Шумы
 
-There are a few shared settings across the different noises. The common options between these noises are listed below, with sepcific settings for each noise described in their respective sections.
+Есть несколько общих настроек для разных шумов. Общие параметры для этих шумов перечислены ниже, а отдельные настройки для каждого шума описаны в соответствующих разделах.
 
-- **Octaves:** This setting determines the number of layers of noise that are used. More octaves result in more detail and complexity but comes with a higher computational cost.
-Lacunarity and Gain can only be configured when you have more than one octave for your noise.
-- **Lacunarity:** This influences the ‘frequency’ of each octave. A higher value increases the frequency, leading to smaller features in the noise pattern.
-- **Gain:** This controls the amplitude of each octave. A higher value will increase the influence of each successive octave. A lower value will make effect of the octavation more subtle.
-- **Seed:** The seed value is used to initialize the noise generation algorithm, providing a starting point. Different seeds produce different noise patterns, but the same seed will always produce the same pattern. Keeping the same seed is useful for when you want to continue a pattern rather than starting a new one.
-- **Jitter:** This value controls how uniform the cellular noise appears by limiting how much the seed points can move off their starting grid arrangement.<br>
-A value of 0.0 will return a perfectly uniform grid pattern, 1.0 returns a minimally uniform pattern.<br>
-Applicable only to the cellular noise types **Voronoi Edges**, **Worley**, and **Metaballs**. 
+- **Октавы:** Этот параметр определяет количество используемых слоев шума. Больше октав приводит к большей детализации и сложности, но требует более высоких вычислительных затрат.
+Лакунарность и усиление можно настроить только в том случае, если у вас более одной октавы для вашего шума.
+- **Лакунарность:** Это влияет на «частоту» каждой октавы. Чем выше значение, тем выше частота, что приводит к уменьшению характеристик шумовой картины.
+- **Прирост:** Это контролирует амплитуду каждой октавы. Более высокое значение увеличивает влияние каждой последующей октавы. Более низкое значение сделает эффект октавации более тонким.
+- **Скорость:** Начальное значение используется для инициализации алгоритма генерации шума, предоставляя отправную точку. Разные семена производят разные шумовые паттерны, но одно и то же семя всегда будет производить один и тот же паттерн. Сохранение одного и того же начального числа полезно, когда вы хотите продолжить шаблон, а не начинать новый.
+- **Джиттер:** Это значение определяет, насколько однородным выглядит сотовый шум, ограничивая, насколько исходных точек могут смещаться от своего исходного расположения сетки.<br>
+Значение 0,0 вернет идеально однородный узор сетки, 1,0 вернет минимально однородный узор.<br>
+Применимо только к типам сотового шума **Voronoi Edges**, **Worley** и **Metaballs**. 
 
 ### Simplex
     
-Simplex noise generates a smooth, continuous pattern that often resembles a hilly or wavy terrain when visualized.
+Симплексный шум создает плавный непрерывный рисунок, который при визуализации часто напоминает холмистую или волнистую местность.
 
-Simplex noise is an improved version of Perlin noise.
+Симплексный шум — это улучшенная версия шума Перлина.
     
 ### Worley
     
-Worley noise, also known as cellular noise, creates a pattern that looks like irregular cells or Voronoi diagrams, with each 'cell' having a distinct point of intensity and fading out towards its borders.
+Шум Уорли, также известный как сотовый шум, создает узор, который выглядит как неправильные ячейки или диаграммы Вороного, где каждая «ячейка» имеет отдельную точку интенсивности и исчезает к границе.
     
-- **W1:** This is the weight of the distance of the closest voronoi point.
-- **W2:** This is the weight of the distance of the second closest voronoi point.
-- **W3:** This is the weight of the distance of the third closest voronoi point.
+- **W1:** Это вес расстояния до ближайшей точки Вороной.
+- **W2:** Это вес расстояния до второй ближайшей точки Вороной. 
+- **W3:** Это вес расстояния до третьей ближайшей точки Вороного.
     
-The interplay between W1, W2, and W3 values significantly affects the Worley noise outcome. For example, if W1 is high and W2 and W3 are low, the pattern will have clearly defined, irregular cells. But if W1, W2, and W3 are all high, the pattern will be more complex and interconnected, as it's influenced by multiple nearby points.
+Взаимодействие между значениями W1, W2 и W3 существенно влияет на результат шума Уорли. Например, если W1 высок, а W2 и W3 низки, паттерн будет четко определен., клетки неправильной формы. Но если W1, W2 и W3 все высокие, паттерн будет более сложным и взаимосвязанным, так как на него влияет несколько соседних точек.
     
 ### Voronoi Edges
     
-This type of noise specifically accentuates the edges or boundaries between the cells formed in Voronoi diagrams, resulting in a grid of interconnected lines or a 'cracked' appearance. This is useful for making things like cracks, stone tiles, etc.
+Этот тип шума особенно подчеркивает края или границы между ячейками, сформированными на диаграммах Вороного, что приводит к сетке взаимосвязанных линий или «трещинам».
     
 ### Metaball
     
-Metaball noise creates a pattern that looks like overlapping blobs or spheres, with smooth transitions between these 'blobs'. Similar to the patterns of blobs in lava lamps.
+Шум метабола создает узор, который выглядит как перекрывающиеся капли или сферы с плавными переходами между этими «каплями». Похоже на узоры капель в лавовых лампах.
     
-- **Range:** Adjusts the radius around each point that influences the noise. A larger range results in larger, more spread-out blobs, resembling a pattern more reminescent of the aforementioned lavalamp blobs.
+- **Диапазон:** регулирует радиус вокруг каждой точки, влияющей на шум. Больший диапазон приводит к более крупным, более рассредоточенным пятнам, напоминающим узор, более напоминающий краторы на луне.
     
 ### White Noise
     
-White noise generates a completely random pattern with no discernible structure, looking like static on an old television screen.
+Белый шум создает совершенно случайный рисунок без различимой структуры, который выглядит как помехи на экране старого телевизора.
 
-## Blocks  
+## Блоки  
 
-The section beneath the noise configuration allows you to specify the blocks used in painting, as well as determine their distribution within the noise pattern. You can adjust the block distribution by setting a threshold between 0 to 1 or specifying a per-block percentage from 0 to 100%. The threshold setting is particularly useful when you're tweaking parameters for complex noises like Worley.
+Раздел под конфигурацией шума позволяет указать блоки, используемые при рисовании, а также определить их распределение в структуре шума. Вы можете настроить распределение блоков указание процента на блок от 0 до 100%. Настройка порога особенно полезна, когда вы настраиваете параметры сложных шумов, таких как Worley.
 
-Clicking the '+' sign adds a new block. Clicking on an existing block allows you to select and add different blocks to your noise pattern. You can also drag and drop palettes and active blocks onto the blocks section.
+Нажатие знака «+» добавляет новый блок. Щелчок по существующему блоку позволяет вам выбирать и добавлять различные блоки к вашему шаблону шума. Вы также можете перетаскивать палитры и активные блоки.
 
-## Preview
+## Предварительный просмотр
 
-Lastly, beneath the settings, there are three windows to aid in visualizing the noise pattern, cumulative distribution, and probability density:
+Наконец, под настройками есть три окна, которые помогают визуализировать картину шума, кумулятивное распределение и плотность вероятности:
 
-- **Noise Preview**: As the name suggests, this provides an approximation of how the current noise settings would look, mapped to the voxel grid. It uses a grayscale representation to depict block presence, with white denoting the primary block and the color darkening as more blocks are added. Black signifies no blocks.
-- **Cumulative Distribution and Probability Density Visualizers**: These tools are especially useful when you've set the Blocks mode to be threshold-based. They help illustrate how the blocks will be distributed within the noise pattern. The Cumulative Distribution Visualizer provides a graph showing the cumulative percentages of different blocks as the noise threshold increases from 0 to 1. The Probability Density Visualizer gives a sense of how likely each block is to appear at a given noise value. It can help you understand and fine-tune the balance of blocks in your noise pattern.
+- **Предварительный просмотр шума**: как следует из названия, это дает приблизительное представление о том, как будут выглядеть текущие настройки шума, сопоставленные с воксельной сеткой. Он использует представление в градациях серого для отображения присутствия блоков, где белый цвет обозначает основной блок, а цвет темнеет по мере добавления дополнительных блоков. Черный означает отсутствие блоков.
+- **Визуализаторы кумулятивного распределения и плотности вероятности**: эти инструменты особенно полезны, если вы установили режим блоков на основе порога. Они помогают проиллюстрировать, как блоки будут разделены. Визуализатор кумулятивного распределения предоставляет график, показывающий кумулятивный процент различных блоков по мере увеличения порога шума от 0 до 1. Визуализатор плотности вероятности дает представление о том, насколько вероятно появление каждого блока при заданном уровне шума. Это может помочь вам понять и точно настроить баланс блоков в вашем шаблоне шума.
