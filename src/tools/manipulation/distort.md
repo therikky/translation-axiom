@@ -1,9 +1,8 @@
-# Distort
+# Искажения
+Инструмент искажений использует концепцию, называемую «Domain Distortion» с симплексным шумом, чтобы исказить заданную область. На практике это делает области более неровными. Это может помочь сделать плоские области более глубокими и текстурными или использоваться для добавления неровностей и вырезов в более изысканный ландшафт. Он делает это внутри пути мазка кисти, который можно определить в настройках кисти.
 
-The **Distort** tool uses a concept called ‘Domain Distortion’ with a Simplex noise in order to distort a given area. What this does in practice is making areas more bumpy. This can help to make flat areas have more depth and texture or be used to add some bumps and carvings into more refined terrain. It does this inside the brush stroke path which can be defined by the brush settings.
+Искажение можно настроить дополнительно, чтобы точно настроить, как вы хотите исказить ландшафт. Масштаб задает масштаб симплексного шума, используемого для искажения домена. Это может быть настроено на большие размеры, если масштаб недостаточно велик. Его также можно настроить с помощью начального числа для использования разных или случайных начальных значений.
 
-The distortion can be configured further to finetune how you want to distort the terrain. The scale sets the scale of the Simplex noise used to perform the domain distortion. This can be configured to larger sizes should the scale not be large enough. It can also be configured with the seed to use different or random seeds.
+Расстояние искажения увеличивает диапазон, в котором шум искажается. Расстояние 2 означает среднее расстояние в 2 блока от целевой позиции. Из-за того, что шум является непрерывным, диапазон может быть установлен на неполные числа, чтобы точно настроить диапазон, иногда в результате появляются более крупные вмятины или неровности. Большое расстояние заставит его выглядеть более «суровым». Эти расстояния можно разделить по осям, нажав кнопку * Разделить ось.
 
-The distance of the distortion increases the range in which the noise distorts. A distance of 2 being an average of 2 blocks distance away from the target position. Due to to the fact that the noise is continuous the range can be set to non-full numbers in order to finetune the range, sometimes making larger dents or bumps appear as a result. A high distance will cause it to look more ‘severe’. These distances can be separated per axis by toggling the ***Separate Axis** button
-
-The smooth edges option blends the edges of the noise into the existing terrain to avoid jagged edges and sharp contrasts from appearing between the distorted areas.
+Параметр «Сглаженные края» смешивает края шума с существующим ландшафтом, чтобы избежать появления неровных краев и резких контрастов между искаженными областями.
