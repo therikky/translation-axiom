@@ -1,16 +1,17 @@
-# Magic Select
+#Волшебный выбор
 
-The **Magic Select** tool is a powerful selection tool which improves the building process immensely if used correctly. With a single click on a block type, the Magic Selection tool swiftly selects all adjacent blocks of the same type, streamlining the selection process.
+The **Волшебный выбор**Инструмент является мощным инструментом выбора, который значительно улучшает процесс построения, если его правильно использовать. Одним щелчком мыши по типу блока инструмент «Волшебное выделение» быстро выделяет все соседние блоки того же типа, упрощая процесс выбора.
 
-The tool features the following options:
-The **Compare** option mode lets you select the types of blocks that it can select adjacent to the original block. The default mode is ‘Block’
+Инструмент имеет следующие параметры:
+The **Сравнивать**Режим опций позволяет вам выбирать типы блоков, которые он может выбирать рядом с исходным блоком. Режим по умолчанию — «Блокировка».
 
-| Compare Type | Description |
-| --- | --- |
-| Block | All blocks of the same type including all blockstates. |
-| BlockState | All blocks of the exact same blockstate as the target block. |
-| Solid | Any block that you cannot pass through. For example stone, glass panes, etc. Not flowers, water, etc. |
-| Any | All blocks directly adjacent including non solid blocks except for air. This causes it to ‘stop’ once it reaches air. |
+|Сравнить|Описание|
+|---|---|
+|Блокировать|Все блоки одного типа, включая все состояния блоков.|
+|состояние блокировки|Все блоки точно такого же состояния блока, что и целевой блок.|
+|Твердый|Любой блок, через который вы не можете пройти. Например, камень, стеклянные панели и т. д. Не цветы, вода и т. д.|
+|Любой|Все блоки, непосредственно примыкающие друг к другу, включая нетвердые блоки, кроме воздушных. Это заставляет его «останавливаться», когда он достигает воздуха.|
+
 
 The **Limit** option is a slider which can be configured to set how many blocks it should select in total. The magic select algorithm works by expanding outwards from the centre block to form an octahedron. Increasing the limit simply lets you select more blocks. The default limit is set to 100,000 blocks but can be set to any arbitrary limit.
 
