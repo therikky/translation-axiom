@@ -1,7 +1,7 @@
-# Box Select
+# Выбрать поле
 
-The **Box Select** tool allows you to create cuboid selections. To start, click and drag between two points. The selection can be further refined by repositioning the 3 [Gizmos](/editor/gizmos.md).
+Инструмент **Box Select** позволяет создавать прямоугольные выделения. Чтобы начать, щелкните и перетащите между двумя точками. Выбор можно уточнить, переместив 3 [гизма](/editor/gizmos.md).
 
-If you want to select between two known coordinates instead, these coordinates can be entered into the tool's options.
+Если вместо этого вы хотите выбрать одну из двух известных координат, эти координаты можно ввести в параметрах инструмента.
 
-> Warning: Some users try to use the tool by clicking twice. This does not work, you must drag to create the initial box
+> Предупреждение. Некоторые пользователи пытаются использовать инструмент, щелкнув дважды. Это не работает, вы должны перетащить, чтобы создать начальное поле.
