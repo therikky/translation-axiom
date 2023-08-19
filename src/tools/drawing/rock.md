@@ -1,20 +1,19 @@
-# Rock
+# Камень
+Инструмент «Камень» — это инструмент скульптинга на основе шума, полезный для создания ландшафта и фигур, похожих на скалы. Его можно использовать как для отдельных камней, так и для валунов, а также для придания поверхностям более каменистого и грубого вида. Он использует несколько параметров, которые изменяют способ формирования камней в целом, а также в зависимости от поверхности, на которой они расположены. Он использует активный блок для определения палитры. Доступны различные настройки для точной настройки поведения скульптинга инструмента:
 
-The **Rock** tool is a noise-based sculpting tool useful for making rock-like terrain and shapes. It can be used for both individual rocks and boulders as well as making surfaces look more rocky and rough. It uses several parameters that change how rocks form in general as well as in relation to the surface they’re placed on. It uses the active block to determine the palette. Various settings are available to finetune the tool’s sculpting behavior:
+## Настройки шума
+Настройки шума позволяют пользователю настроить, насколько случайными и грубыми должны быть камни, созданные инструментом скульптора. Есть несколько настроек, которые можно изменить, чтобы изменить поведение шума.
 
-## Noise Settings
- The noise settings lets the user configure how random and rough the rocks created by the sculpting tool should be. There are several settings that can be adjusted to change the noise’s behavior. 
+## радиус шума
+Радиус шума — это параметр, определяющий «масштаб» модификаций, вызванных шумом. Больший радиус шума подразумевает более широкую зону воздействия, влияющую на большее количество блоков, что, в свою очередь, формирует более крупные, похожие на капли конфигурации, которые обычно более округлые и сглаженные из-за более широкого распределения изменений. С другой стороны, меньший радиус шума, который влияет на меньшее количество блоков, приведет к более точным и неровным изменениям, ограниченным размером сетки вокселей.
 
-The noise radius is a setting that determines the 'scale' of the noise-induced modifications. A larger noise radius implies a broader impact zone, affecting more blocks, which in turn forms bigger, blob-like configurations that are typically more rounded and smoothed out due to the wider distribution of changes. On the other hand, a smaller noise radius, which affects fewer blocks, will result in more refined and jagged alterations, constrained by the voxel grid size.
+Ползунок «Шумность» влияет на то, насколько «шумными» или случайными будут скульптурные блоки. Чем выше уровень шума, тем больше случайных и неравномерных камней. Более низкий уровень шума дает более гладкие сферические камни. В сочетании с радиусом шума и другими факторами это может повлиять на то, насколько грубым будет окончательный вид камней.
 
-The ‘Noisiness’ slider affects how ‘noisy’ or random the sculpted blocks will be. A higher level of noisiness yield more random and blobby looking rocks. A lower level of noisiness yields more smooth spherical rocks. Combined with the noise radius and other factors this can impact how rough the rocks’s final appearance will be. 
+> Начальное значение поля шума позволяет вам ввести начальное значение, если вы хотите продолжить шаблон, который вы ранее использовали, или повторно использовать после игры с параметрами, по умолчанию оно рандомизируется при каждом ударе.
 
-The Noise Field Seed lets you enter a seed should you want to continue a pattern that you previously used or reuse after playing with parameters, by default it is randomized on every stroke.
+## Настройки сглаживания
+Настройки сглаживания влияют на то, насколько камни, созданные предыдущими настройками, сглаживаются, чтобы создать более целостную и унифицированную форму камня, а не плавающие капли.
 
-## Smoothing Settings
-The smoothing settings affect how much the rocks produced by the previous settings get smoothed out in order to create a more coherent and unified looking rock shape rather than being floating blobs. 
+Настройки стандартного отклонения сглаживания позволяют установить силу размытия по Гауссу, применяемого к инструменту. Значение по умолчанию варьируется от 0 до 5, но может быть расширено за пределы ограничения. 0 соответствует отсутствию сглаживания, 2 — стандартная настройка — соответствует примерно ~4 блокам диапазона сглаживания, а 5 соответствует очень гладкому диапазону примерно ~10 блоков сглаживания.
 
-The Smoothing Standard Deviation settings let you set the strength of the Gaussian blur applied to the tool. The default ranges from 0 to 5 but can be extended beyond the cap. 0 being equivalent to having no smoothing applied, 2 - the standard setting - being equivalent to having roughly ~4 blocks of range of smoothing and 5 being very smooth with a range of roughly ~10 blocks of smoothing.
-
-The Meld strength is a feature that lets you determine how strongly a rock should be melded or belnded together with the existing blocks of the world. This causes rocks to smooth out more near the edges of the brush in order to ease out the jagged edges that a rock might otherwise have. The default ranges from 0 to 3 but can be extended beyond the cap, 0 having no melding applied and just being placed at the surface, 3 being a strong melding affect. The meld strength is also affected by smoothing, with more smoothing causing ‘melded edges’ to be more finely smoothed into the existing blocks.
-
+Сила слияния — это функция, которая позволяет вам определить, насколько сильно скала должна быть слита или соединена вместе с существующими блоками мира. Это заставляет камни сглаживаться ближе к краям кисти, чтобы сгладить неровные края, которые в противном случае могли бы быть у камня. Значение по умолчанию находится в диапазоне от 0 до 3, но может быть расширено за пределы колпачка, 0 означает, что слияние не применяется, а просто помещается на поверхность, 3 означает сильный эффект слияния. На прочность сплава также влияет сглаживание, при этом большее сглаживание приводит к более точному сглаживанию «объединенных краев» в существующие блоки.
