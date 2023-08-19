@@ -1,12 +1,13 @@
-# Selection Tools
+# Инструменты выделения
 
-This section covers selection tools and their options. An option that is generic to all selection tools a concept known as **boolean operations**. The default option is ‘add’
+В этом разделе рассматриваются инструменты выделения и их параметры. Параметр, который является общим для всех инструментов выделения. Концепция, известная как **логические операции**. Опция по умолчанию — «добавить».
 
-| Boolean Operation | Description |
+| Операция | Описание |
 | --- | --- |
-| Add | Adds the selected area to the current selection |
-| Subtract | Subtracts the selected area from the current selection |
-| Replace | Replaces the current selection with the selected area |
-| Intersect | Selects only the area that overlaps with the current selection |
+| Добавить | Добавляет выбранную область к текущему выбору |
+| Вычесть | Вычитает выделенную область из текущего выделения |
+| Заменять | Заменяет текущий выбор выбранной областью |
+| Пересечения | Выделяет только область, которая перекрывается с текущим выделением |
 
-> Note: At very large scales non-cuboid selections become less performant due to the complexity in keeping track of the entire region. If you need to perform an operation on a very large area it is recommended to use a cuboid selection and encompass the entire build.
+> Примечание. В очень больших масштабах выбор непрямоугольной формы становится менее эффективным из-за сложности отслеживания всей области.
+Если вам нужно выполнить операцию на очень большой площади, рекомендуется использовать прямоугольное выделение и охватить всю сборку.
