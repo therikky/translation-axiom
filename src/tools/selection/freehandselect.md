@@ -1,3 +1,3 @@
-# Freehand Select
+# Произвольный выбор
 
-The **Freehand Select** tool allows you select spheres, cuboids and octahedrons with a brush stroke. It's rather basic, but it can be helpful to select strange parts of a build that might be difficult to select otherwise.
+Инструмент **Свободное выделение** позволяет выделять сферы, прямоугольные параллелепипеды и октаэдры мазком кисти. Это довольно просто, но может быть полезно выбрать странные части сборки, которые могут быть трудными.
